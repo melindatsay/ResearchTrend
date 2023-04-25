@@ -1,4 +1,4 @@
-###Title: Use Keyword to Explore Opportunities in Academic World
+### Title: Use Keyword to Explore Opportunities in Academic World
 
 ### Purpose:
 
@@ -6,10 +6,11 @@
 - **Target Users**: Users who are interested in exploring opportunities in academic settings are our target users.
 - **Objectives**: Users can learn research trends in the last ten years and its associated top professors and top universities. Besides, users can insert and delete their favorite keywords to the database in real time with related top publications provided.
 
-###Demo:
+### Demo:
+
 https://mediaspace.illinois.edu/media/t/1_2ih7s1zn
 
-###Installation:
+### Installation:
 
 ```python
 git clone https://github.com/CS411DSO-SP23/MengyunTsay.git
