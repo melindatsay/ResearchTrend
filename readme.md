@@ -104,14 +104,16 @@ Official tutorials from Dash, plotly, MySQL, MongoDB and neo4j are sufficient to
 
 - **For MySQL:**
   One of the functions of this application is to add and delete keywords to the favorite keyword table, which will insert and delete keywords in the favorite_keyword table in real time from the MySQL database. The favorite_keyword table is created in the MySQL database when executing db_technique.py before starting the application. The table has two fields, id and name, where id is the primary key.
-  **1. Partition:** partitioned id in favorite_keyword table by hashing id into 5 partitions. This partition is used for the fifth and sixth widget.
-  **2. View:** created view for publication table joined with favorite_keyword table on publication’s id and favorite_keyword where publication’s year is greater than 2012. This view is used for the fifth and sixth widget when querying the top publication with given keys.
-  **3. Constraint:** added check constraint for favorite_keyword table where numbers of characters of name are greater than two. This constraint will be used for the fifth and sixth widget when users insert their favorite keyword by entering text in the given input field.
-  **4. Indexing:** created indexes on id and name of favorite_keyword table. This indexing is used for the fifth and sixth widget.
+
+  1. **Partition:** partitioned id in favorite_keyword table by hashing id into 5 partitions. This partition is used for the fifth and sixth widget.
+  2. **View:** created view for publication table joined with favorite_keyword table on publication’s id and favorite_keyword where publication’s year is greater than 2012. This view is used for the fifth and sixth widget when querying the top publication with given keys.
+  3. **Constraint:** added check constraint for favorite_keyword table where numbers of characters of name are greater than two. This constraint will be used for the fifth and sixth widget when users insert their favorite keyword by entering text in the given input field.
+  4. **Indexing:** created indexes on id and name of favorite_keyword table. This indexing is used for the fifth and sixth widget.
 
 - **For MongoDB:**
-  **1. Indexing:** created indexes on id and name for keyword table. This indexing is used for the first and second widget.
-  **2. View:** created view for publication table where publication year is greater than 2012. This view is used for the first and second widget.
+  1. **Indexing:** created indexes on id and name for keyword table. This indexing is used for the first and second widget.
+  2. **View:** created view for publication table where publication year is greater than 2012. This view is used for the first and second widget.
 
-###Contributions:
+### Contributions:
+
 This project is completed solely by myself. I did all the tasks alone.
