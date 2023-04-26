@@ -26,7 +26,7 @@ pip install dash-bootstrap-component
 pip install plotly-express
 ```
 
-##Usage:
+### Usage:
 
 - Run the code below to start the App.
 
