@@ -6,7 +6,7 @@ from config import *
 # use SQLalchemy for app.py
 pymysql.install_as_MySQLdb()
 
-user = 'root'
+user = MYSQL_USER
 password = MYSQL_PASSWORD
 host = '127.0.0.1'
 port = 3306
