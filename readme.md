@@ -13,8 +13,6 @@ https://mediaspace.illinois.edu/media/t/1_2ih7s1zn
 ### Installation:
 
 ```python
-git clone https://github.com/CS411DSO-SP23/MengyunTsay.git
-cd MengyunTsay
 pip install pandas
 pip install pymongo
 pip install pymysql
